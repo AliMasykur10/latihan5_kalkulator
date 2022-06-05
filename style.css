@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 500px;
+  background-color: rgb(155, 155, 155);
+}
+
+.bottom-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
