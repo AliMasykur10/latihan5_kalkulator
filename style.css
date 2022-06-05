@@ -4,19 +4,33 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 main {
-  width: 500px;
+  width: 400px;
+  height: 80%;
   background-color: rgb(155, 155, 155);
+  display: flex;
+  flex-direction: column;
+}
+
+.top-section {
+  width: 100%;
+  height: 200px;
 }
 
 .bottom-section {
+  width: 100%;
+  height: 500px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-}
-
-.tombol {
-  /* width: 100px; */
-  height: 100px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .button {
