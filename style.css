@@ -32,6 +32,24 @@ h1 {
 .top-section {
   width: 100%;
   height: 200px;
+  position: relative;
+}
+.top-section input {
+  position: absolute;
+  height: 50px;
+  width: 80%;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: end;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(41, 41, 41);
 }
 
 .bottom-section {
