@@ -80,3 +80,41 @@ button {
 button:hover {
   background-color: rgba(255, 255, 255, 0.8);
 }
+.toogle-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.toogle-container button {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  color: black;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.toogle-container label {
+  color: white;
+  font-size: 10px;
+}
+
+/*
+.toogle-container input {
+  visibility: hidden;
+}
+
+.toogle-container label {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+}
+
+.toogle-container label:hover {
+  background-color: rgb(211, 211, 211);
+} */
