@@ -36,4 +36,30 @@ main {
   border: none;
   text-align: center;
   font-size: 70px;
+  visibility: none;
+  outline: none;
+}
+
+.left-section input::placeholder {
+  color: black;
+}
+
+.right-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.right-section button {
+  width: 5rem;
+  height: 5rem;
+  margin: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.right-section button:hover {
+  background-color: rgb(225, 225, 225);
 }
