@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Changa", sans-serif;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.left-section .output {
+  width: 500px;
+  height: 500px;
+}
+
+.left-section h1 {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 50px;
+}
+
+.left-section input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  text-align: center;
+  font-size: 70px;
+}
